@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010771414628}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010771414628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012210743576}
+  - 114: {fileID: 114000012245542578}
+  m_Layer: 0
+  m_Name: SilentAlarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012210743576
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010771414628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012245542578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010771414628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1427759265, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OverrideEffect: 6
+  AudioClip: {fileID: 8300000, guid: fd2d2cf14b7c67e4fb7b6c738212dfdf, type: 3}
+  AdditionalVariants:
+  - {fileID: 8300000, guid: cfebed31fa0638447b2557a15a7d62bf, type: 3}
+  - {fileID: 8300000, guid: 44b0d8cf72fd22f428d5b49f7f0076b9, type: 3}
+  - {fileID: 8300000, guid: 9953a7b297e437648a09229fc316aa94, type: 3}
+  - {fileID: 8300000, guid: b22b73f2f11416f4f9686d3558acbab4, type: 3}
+  - {fileID: 8300000, guid: 80a8a32dc126ed545bd7d2839d08934b, type: 3}
+  - {fileID: 8300000, guid: 15e802cf2782a5645b29cb44b04f6c0c, type: 3}

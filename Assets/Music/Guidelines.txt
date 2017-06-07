@@ -1,0 +1,8 @@
+At least 20 seconds long (will be cut down to the first 20 seconds in-game)
+Filter to sound more like a radio
+  e.g. in Audition use Effects > Filter & EQ > Parametric Equalizer > Old Time Radio preset
+
+Ogg Vorbis
+Mono
+22.05KHz
+32 bits
